@@ -100,7 +100,7 @@
         grid-template-columns: 2fr 1fr 2fr;
         grid-template-rows: 350px 1fr;
         grid-template-areas: 
-            "proffy image image""
+            "proffy image image"
             "button button texting";
         align-self: center;
         column-gap: 87px;
@@ -109,7 +109,7 @@
     
     .logo-container{
         grid-area: proffy;
-        text-align: initial;
+        align-self: center;
         text-align: center;
         margin: 0;
     }
